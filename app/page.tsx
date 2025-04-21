@@ -68,7 +68,7 @@ export default function Home() {
     removalInterval = setInterval(()=>{
       const now = Date.now();
       setboulders(prevArr => {
-        return prevArr.filter((b, idx) => {
+        return prevArr.filter((b) => {
           return (now - b.timestamp) < 5000;
         })
       })
