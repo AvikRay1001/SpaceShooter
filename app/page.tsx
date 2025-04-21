@@ -5,8 +5,6 @@ import GameInfoOverlay from "@/components/GameInfoOverlay";
 import HandRecognizer from "@/components/HandRecognizer";
 import RocketComponent from "@/components/RocketComponent";
 import { playBackground, playFX } from "@/utils/audiohandler";
-import { Rokkitt } from "next/font/google";
-import Image from "next/image";
 import { useEffect, useRef, useState } from "react";
 
 let generationInterval: any;

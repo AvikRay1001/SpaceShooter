@@ -1,4 +1,4 @@
-import { Loader, Loader2, Loader2Icon, RocketIcon } from 'lucide-react';
+import { Loader2, RocketIcon } from 'lucide-react';
 import React from 'react'
 
 type Props =  {
